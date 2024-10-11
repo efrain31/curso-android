@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.053" />
+
+    <EditText
+        android:id="@+id/edtMetros"
+        android:layout_width="245dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="83dp"
+        android:ems="10"
+        android:hint="@string/metros"
+        android:inputType="numberSigned"
+        android:numeric="decimal"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtTitulo" />
+
+    <ImageButton
+        android:id="@+id/ibtnLimpiar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="25dp"
+        android:onClick="onClick"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rgpOpciones"
+        app:srcCompat="@android:drawable/ic_menu_delete" />
+
+    <ImageButton
+        android:id="@+id/ibtnMostrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="95dp"
+        android:onClick="onClick"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ibtnLimpiar"
+        app:layout_constraintTop_toBottomOf="@+id/rgpOpciones"
+        app:srcCompat="@android:drawable/ic_menu_view" />
+
+    <ImageButton
+        android:id="@+id/ibtnConvertir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="25dp"
+        android:onClick="onClick"
+        app:layout_constraintEnd_toStartOf="@+id/ibtnLimpiar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rgpOpciones"
+        app:srcCompat="@android:drawable/ic_menu_save" />
+
+    <TextView
+        android:id="@+id/txtResultado"
+        android:layout_width="319dp"
+        android:layout_height="128dp"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="46dp"
+        android:text="@string/resultado"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ibtnConvertir" />
+
+    <RadioGroup
+        android:id="@+id/rgpOpciones"
+        android:layout_width="282dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="48dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtMetros"
+        app:layout_constraintVertical_bias="0.193">
+
+        <RadioButton
+            android:id="@+id/rbtPies"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pies"
+            tools:text="@string/pies" />
+
+        <RadioButton
+            android:id="@+id/rbtPulgadas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pulgadas"
+            tools:text="@string/pulgadas" />
+
+        <RadioButton
+            android:id="@+id/rbtYardas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/yardas"
+            tools:text="@string/yardas" />
+    </RadioGroup>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Tienda de disfraces</string>
+    <string name="mis_compras">Mis compras</string>
+    <string name="pedido">Pedido</string>
+    <string name="nosotros">Nosotros</string>
+    <string name="cerrar_sesi_n">Cerrar sesión</string>
+    <string name="productos">Productos</string>
+
+        <!-- Otros strings y recursos aquí -->
+
+        <string-array name="product_array">
+            <item>Disfraz Batman</item>
+            <item>Disfraz Barbie</item>
+            <item>Disfraz Hada</item>
+            <item>Disfraz Oso</item>
+            <item>Disfraz Zombie</item>
+        </string-array>
+
+
+        <string-array name="size_array">
+            <item>Chico</item>
+            <item>Mediano</item>
+            <item>Grande</item>
+        </string-array>
+    <string name="about_us_description">
+        Somos una tienda de disfraces con más de 10 años de experiencia, ofreciendo una amplia variedad de disfraces para todas las edades y ocasiones. Nuestra misión es brindar alegría y diversión a través de nuestros productos.
+    </string>
+
+
+
+
+</resources>

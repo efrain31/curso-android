@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Tenis</string>
+
+    <string name="titulo">Tenistas</string>
+    <string name="Nombre">Nombre</string>
+    <string name="sub1">Genero</string>
+
+    <string name="profesional">Masculino</string>
+    <string name="amateur">Femenino</string>
+
+    <string name="mayor">Lesion</string>
+    <string name="edad">Edad</string>
+    <string name="Partidos">Partidos</string>
+
+
+
+    <string name="Profesional">Profesional</string>
+    <string name="Olimpico">Olimpico</string>
+    <string name="datos">Datos</string>
+    <string name="Nacionalidad">Nacionalidad</string>
+    <string name="Agregar">Agregar</string>
+    <string name="Limpiar">Limpiar</string>
+    <string name="Buscar">Buscar</string>
+    <string name="sub2">Nivel</string>
+
+
+</resources>
