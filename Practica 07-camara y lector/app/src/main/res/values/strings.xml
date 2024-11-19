@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">DDI_Camara</string>
+    <string name="titulo">Gestión de cámara</string>
+    <string name="menu1">Lector Barras/QR</string>
+    <string name="menu2">Tomar foto</string>
+    <!-- Menu 1 -->
+    <string name="titulo1">Lector de Barra y QR</string>
+    <string name="escanear">Escanear</string>
+    <string name="res">Código leído</string>
+    <string name="descripcion">Captura descripción</string>
+    <string name="capturar">Capturar</string>
+    <string name="limpiar">Limpiar</string>
+    <!-- Menu 2 -->
+    <string name="titulo2">Tomar fotografía</string>
+    <string name="foto">Tomar fotografía</string>
+    <string name="todo">TODO</string>
+
+    <!-- fotos recientes -->
+    <string name="descripcion_foto_1">Primera foto reciente</string>
+    <string name="descripcion_foto_2">Segunda foto reciente</string>
+    <string name="descripcion_foto_3">Tercera foto reciente</string>
+    <string name="ver_registros">Ver Registros</string>
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Sensores</string>
+    <string name="listado">Listado de sensores</string>
+    <string name="magentico">Sensor magnético</string>
+    <string name="proximidad">Sensor Proximidad</string>
+    <string name="detalle">Sensores del dispositivo:</string>
+</resources>
